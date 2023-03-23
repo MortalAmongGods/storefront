@@ -1,0 +1,16 @@
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+.nav-item.hover {
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
