@@ -1,0 +1,17 @@
+<div id="login">
+    <form [formGroup]="loginForm" (ngSubmit)="onSumbit()">
+        
+        <div class="credentials">
+            <label>Username: </label>
+            <input type="text" formControlName="userName" />
+        </div>
+        <div class="credentials">
+            <label>Password: </label>
+            <input type="password" formControlName="passWord" />
+        </div>
+        <div class="button">
+            <button type="submit">Log In</button>
+        </div>
+    
+    </form>
+</div>

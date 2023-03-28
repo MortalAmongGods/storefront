@@ -1,0 +1,14 @@
+#login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.credentials {
+  margin-bottom: 1rem;
+}
+
+.button{
+  cursor: pointer;
+}
